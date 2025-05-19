@@ -1,0 +1,12 @@
+package com.ponsun.aml.banktransaction.adminconfiguration.AdminUser.request;
+
+import lombok.Data;
+
+@Data
+public class UpdateUserRequest extends AbstractUserBaseRequest{
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+}
